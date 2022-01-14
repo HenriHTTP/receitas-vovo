@@ -120,6 +120,7 @@ body{
 .topicos ul  li a { 
     text-decoration: none;
     text-align: left;
+    font-size: 0.9em;
 }
 
 .topicos ul li a:hover{
