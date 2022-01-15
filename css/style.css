@@ -1,8 +1,8 @@
 
 
 *{
-    margin: 0;
-    padding:0;
+    margin: 0px;
+    padding:0px;
     font-size: 1em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:whitesmoke;
@@ -17,15 +17,21 @@ body{
 
 
 #menu-1{
-    margin: auto;
     background-color:#212020;
     text-align: center;
-    max-width: 100%;
-
+    width: 100%;
 
 
 
 }
+.menu{
+    background-color:#212020;
+    text-align: center;
+    width: 100%;
+
+}
+
+
 
 .logo h1{
 
@@ -73,27 +79,33 @@ body{
     max-width: 900px;
     font-size: 0.9em;
     background-color: white;
-    border-top: solid rgb(224, 224, 224) 2px;
-    border-bottom: solid rgb(224, 224, 224) 2px;
+    border-top: solid rgb(224, 224, 224) 3px;
+    border-bottom: solid rgb(224, 224, 224) 3px;
     margin-top: 20px;
     padding: 20px;
-    box-shadow: 0 0 0.8em rgb(65, 65, 65);
+    border-radius: 10px;
   
 }
 
 .cont-index h1{
     font-size:2em;
-    text-align:center;
+    text-align:left;
     padding: 20px;
+    padding-left: 0px;
     color:rgba(34, 33, 33, 0.952);
+    border-bottom: solid black 3px;
+    max-width: 2em;
+
 
 }
 
 .cont-index p{
 
     padding: 20px;
+    padding-left: 0px;
     text-align: justify;
     color:rgba(34, 33, 33, 0.952);
+    font-size: 1.2em;
     
 }
 
@@ -102,7 +114,7 @@ body{
     margin: auto;
     max-width: 1200px;
     margin-top: 20px;
-    background: url(../img/backgroud-notice.jpg);
+  
   
  
 }
@@ -136,7 +148,7 @@ body{
 .topicos ul li a:hover{
 
 
-
+    padding-left: 20px;
     color:rgb(228, 131, 5);
    
 }
@@ -150,5 +162,22 @@ body{
     max-width: 900px;
     max-height: 480px; 
     height: 360px;
+    border-radius: 10px;
 }
 
+.cont-index button { 
+    max-width: 150px;
+    max-height: 75px;
+    background-color:rgb(228, 131, 5);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+.cont-index button a{ 
+    text-decoration: none;
+}
+.cont-index button:hover{ 
+    
+  width: 200px;
+
+}
