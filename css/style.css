@@ -76,14 +76,17 @@ body{
 
     
     margin:auto;
-    max-width: 900px;
+    width: 400px;
     font-size: 0.9em;
     background-color: white;
-    border-top: solid rgb(224, 224, 224) 3px;
-    border-bottom: solid rgb(224, 224, 224) 3px;
+    border: solid rgb(224, 224, 224) 2px;
     margin-top: 20px;
     padding: 20px;
     border-radius: 10px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    
   
 }
 
@@ -106,14 +109,21 @@ body{
     text-align: justify;
     color:rgba(34, 33, 33, 0.952);
     font-size: 1.2em;
+  
+    
+}
+.cont-index:hover{
+
+    box-shadow: 10px 10px 8px #F5F5F5;
     
 }
 
 .container-main{
 
     margin: auto;
-    max-width: 1200px;
+    width: 1500px;
     margin-top: 20px;
+
   
   
  
@@ -146,9 +156,6 @@ body{
 }
 
 .topicos ul li a:hover{
-
-
-    padding-left: 20px;
     color:rgb(228, 131, 5);
    
 }
@@ -158,12 +165,17 @@ body{
 }
 
 .cont-index img{
-    width: 900px;
-    max-width: 900px;
-    max-height: 480px; 
-    height: 360px;
+    width: 400px;
+    height: 320px; 
     border-radius: 10px;
 }
+.cont-index img:hover{
+   
+    opacity: 0.5;
+
+}
+
+
 
 .cont-index button { 
     max-width: 150px;
@@ -180,4 +192,10 @@ body{
     
   width: 200px;
 
+}
+.mais-destaques{ 
+    background-color:rgb(228, 131, 5);
+    text-align: center;
+    font-size: 2em;
+    padding: 20px;
 }
